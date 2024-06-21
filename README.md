@@ -1,2 +1,93 @@
-# pr-ctica1
-PáginaWeb
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cosa Escolar</title>
+    <style>
+        body {
+            background-color: #ADD8E6; /* Azul claro */
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #FFFF00; /* Amarillo */
+            text-align: center;
+            margin-top: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .share-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .share-buttons a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .facebook { background-color: #3b5998; }
+        .twitter { background-color: #1da1f2; }
+        .whatsapp { background-color: #25d366; }
+    </style>
+</head>
+<body>
+    <h1>La Cosa Escolar</h1>
+    <div class="content">
+        <p>Bienvenidos a nuestra página web sobre la cosa escolar. Aquí encontrarás recursos, consejos y materiales útiles para estudiantes, padres y educadores. Nuestro objetivo es proporcionar información valiosa que ayude a mejorar la experiencia educativa de todos.</p>
+        
+        <h2>Recursos para Estudiantes</h2>
+        <p>En esta sección, los estudiantes pueden encontrar guías de estudio, ejercicios prácticos y técnicas para mejorar su aprendizaje.</p>
+        
+        <h2>Consejos para Padres</h2>
+        <p>Ofrecemos consejos para padres sobre cómo apoyar a sus hijos en su educación, incluyendo estrategias para crear un ambiente de estudio adecuado en casa.</p>
+        
+        <h2>Materiales para Educadores</h2>
+        <p>Los educadores pueden acceder a una variedad de recursos didácticos, planes de lecciones y actividades para utilizar en el aula.</p>
+
+        <h2>Definición del Acoso Escolar</h2>
+        <p>El acoso escolar, también conocido como bullying, es un comportamiento agresivo y no deseado entre escolares que implica un desequilibrio de poder. Este comportamiento se repite o tiene el potencial de repetirse con el tiempo.</p>
+        
+        <h2>Tipos de Acoso Escolar</h2>
+        <ul>
+            <li><strong>Acoso Físico:</strong> Incluye golpes, patadas y cualquier forma de violencia física.</li>
+            <li><strong>Acoso Verbal:</strong> Uso de insultos, apodos ofensivos, amenazas y burlas.</li>
+            <li><strong>Acoso Social:</strong> Excluir a alguien intencionalmente, difundir rumores y afectar negativamente la reputación o las relaciones de alguien.</li>
+            <li><strong>Ciberacoso:</strong> Uso de la tecnología para acosar, como mensajes de texto, correos electrónicos, redes sociales y otras plataformas digitales.</li>
+        </ul>
+        
+        <h2>Señales de Advertencia</h2>
+        <p>Algunas señales de que un niño puede estar siendo acosado incluyen:</p>
+        <ul>
+            <li>Cambios inexplicables en el estado de ánimo o comportamiento.</li>
+            <li>Pérdida de pertenencias personales o daño a las mismas.</li>
+            <li>Quejas frecuentes de enfermedades físicas como dolores de cabeza o estómago.</li>
+            <li>Cambios en los hábitos de sueño o alimentación.</li>
+            <li>Reluctancia a ir a la escuela o participar en actividades escolares.</li>
+        </ul>
+        
+        <h2>Qué Hacer si Eres una Víctima</h2>
+        <p>Si eres víctima de acoso escolar, es importante que tomes medidas para protegerte:</p>
+        <ul>
+            <li><strong>Habla con Alguien:</strong> Informa a un adulto de confianza, como un padre, maestro o consejero escolar.</li>
+            <li><strong>Mantén la Calma:</strong> No respondas al acoso con violencia. Trata de mantener la calma y alejarte de la situación.</li>
+            <li><strong>Documenta el Acoso:</strong> Anota lo que sucede, cuándo y dónde ocurre, y quién está involucrado.</li>
+            <li><strong>Busca Apoyo:</strong> Habla con amigos que puedan apoyarte y ayudarte a sentirte seguro.</li>
+        </ul>
+        
+        <div class="share-buttons">
+            <p>Comparte este enlace:</p>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=URL_DE_LA_PAGINA" class="facebook" target="_blank">Facebook</a>
+            <a href="https://twitter.com/intent/tweet?url=URL_DE_LA_PAGINA&text=Texto%20para%20compartir" class="twitter" target="_blank">Twitter</a>
+            <a href="https://wa.me/?text=URL_DE_LA_PAGINA" class="whatsapp" target="_blank">WhatsApp</a>
+        </div>
+    </div>
+</body>
+</html>
